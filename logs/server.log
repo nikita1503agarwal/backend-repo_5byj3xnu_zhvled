@@ -4,3 +4,12 @@ INFO:     Started reloader process [228] using StatReload
 INFO:     Started server process [230]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+INFO:     172.20.0.1:37262 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:37270 - "GET /api/collections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37286 - "POST /api/products/search HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37270 - "GET /api/collections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37274 - "POST /api/products/search HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37286 - "POST /api/products/search HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37274 - "GET /api/collections HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37270 - "POST /api/products/search HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37274 - "GET /api/collections HTTP/1.1" 200 OK
